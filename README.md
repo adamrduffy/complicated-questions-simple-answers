@@ -14,11 +14,23 @@ idempotent PUT and POST
 # Java
 
 hashmap vs hastable
+
 list vs set
+
 comparator and comparable
+
 tile definitions
+
 spring annotations
+
+junit annotations
+
+double null check
+
+synchronized
+
+constants and static final
 
 # Groovy
 
-avoid null pointers
+avoid null pointer exceptions
