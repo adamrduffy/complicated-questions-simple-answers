@@ -6,6 +6,7 @@ Floyd's cycle-finding algorithm, also know as tortoise and hare algorithm.
 
 The idea is to have two references to the list and move them at different speeds. Move one forward by 1 node and the other by 2 nodes.
 
+```java
 boolean hasLoop(Node first) {
 
     if(first == null) // list does not exist..so no loop either.
@@ -31,6 +32,7 @@ boolean hasLoop(Node first) {
             return true;
     }
 }
+```
 
 http://stackoverflow.com/a/2663147
 
