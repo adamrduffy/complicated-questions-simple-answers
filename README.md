@@ -101,7 +101,30 @@ https://tiles.apache.org/framework/
 @Service - Stereotypes a component as a service.
 
 ### Spring MVC Annotations
-@Controller - 
+@Controller - Stereotypes a component as a Spring MVC controller.
+@InitBinder - Annotates a method that customizes data binding.
+@ModelAttribute - When applied to a method, used to preload the model with the value returned from the method. When applied to a parameter, binds a model attribute to the parameter. table
+@RequestMapping - Maps a URL pattern and/or HTTP method to a method or controller type.
+@RequestParam - Binds a request parameter to a method parameter.
+@SessionAttributes - Specifies that a model attribute should be stored in the session.
+
+### Transaction Annotations
+@Transactional - Declares transactional boundaries and rules on a bean and/or its methods.
+
+### Aspect Annotations
+@Aspect - Declares a class to be an aspect.
+@After - Declares a method to be called after a pointcut completes.
+@AfterReturning - Declares a method to be called after a pointcut returns successfully.
+@AfterThrowing - Declares a method to be called after a pointcut throws an exception.
+@Around - Declares a method that will wrap the pointcut.
+@Before - Declares a method to be called before proceeding to the pointcut.
+@DeclareParents - Declares that matching types should be given new parents,that is, it introduces new functionality into matching types.
+@Pointcut - Declares an empty method as a pointcut placeholder method.
+
+### JSR-250 Annotations
+@PostConstruct - Indicates a method to be invoked after a bean has been created and dependency injection is complete. Used to perform any initialization work necessary.
+@PreDestroy - Indicates a method to be invoked just before a bean is removed from the Spring context. Used to perform any cleanup work necessary.
+@Resource - Indicates that a method or field should be injected with a named resource (by default, another bean).
 
 https://dzone.com/refcardz/spring-annotations
 
