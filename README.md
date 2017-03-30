@@ -132,4 +132,11 @@ junit annotations
 
 # Groovy
 
-avoid null pointer exceptions
+## Safe navigation operator
+This is just a question mark (?) before the dot (.)
+
+animal?.name
+
+https://tedvinke.wordpress.com/2015/09/25/avoid-nullpointerexception-safe-navigation-with-groovy/
+
+http://www.groovy-lang.org/operators.html#_safe_navigation_operator
