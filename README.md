@@ -13,6 +13,30 @@ idempotent PUT and POST
 
 # Java
 
+## Inheritance vs Composition
+
+*TODO*
+
+## Method Overloading vs Method Overriding
+
+*TODO*
+
+You can't override the static method because they are the part of class not object. You can override the overloaded method.
+
+## Abstract vs Inteface
+
+A class that is declared as abstract is known as abstract class. It needs to be extended and its method implemented. It cannot be instantiated.
+
+Interface is a blueprint of a class that have static constants and abstract methods.It can be used to achieve fully abstraction and multiple inheritance.
+
+## Covariant Return Type
+
+*TODO*
+
+## Runtime Polymorphism
+
+*TODO*
+
 ## What are the differences between a HashMap and a Hashtable in Java?
 
 There are several differences between HashMap and Hashtable in Java:
