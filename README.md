@@ -1,11 +1,42 @@
 # Brain Teasers
 
-cycle detection in linked lists - floyd's algorithm - tortoise and hare
+## How to detect a loop in a linked list?
+
+Floyd's cycle-finding algorithm, also know as tortoise and hare algorithm.
+
+The idea is to have two references to the list and move them at different speeds. Move one forward by 1 node and the other by 2 nodes.
+
+boolean hasLoop(Node first) {
+
+    if(first == null) // list does not exist..so no loop either.
+        return false;
+
+    Node slow, fast; // create two references.
+
+    slow = fast = first; // make both refer to the start of the list.
+
+    while(true) {
+
+        slow = slow.next;          // 1 hop.
+
+        if(fast.next != null)
+            fast = fast.next.next; // 2 hops.
+        else
+            return false;          // next node null => no loop.
+
+        if(slow == null || fast == null) // if either hits null..no loop.
+            return false;
+
+        if(slow == fast) // if the two ever meet...we must have a loop.
+            return true;
+    }
+}
+
+http://stackoverflow.com/a/2663147
 
 http://stackoverflow.com/a/6110767
 
-
-fibonacci algorithm - recursion and iteration
+## fibonacci algorithm - recursion and iteration
 
 # REST
 
