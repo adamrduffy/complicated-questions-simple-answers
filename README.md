@@ -69,13 +69,22 @@ http://stackoverflow.com/a/2691891
 
 ## Inheritance vs Composition
 
-*TODO*
+Inheritance is an "is-a" relationship. Composition is a "has-a".
+You do composition by having an instance of another class C as a field of your class, instead of extending C.
+
+http://stackoverflow.com/a/2399554
 
 ## Method Overloading vs Method Overriding
 
-*TODO*
+Method overloading deals with the notion of having two or more methods in the same class with the same name but different arguments.
+
+void foo(int a)
+void foo(int a, float b)
+Method overriding means having two methods with the same arguments, but different implementations. One of them would exist in the parent class, while another will be in the derived, or child class. 
 
 You can't override the static method because they are the part of class not object. You can override the overloaded method.
+
+http://stackoverflow.com/a/12374437
 
 ## Abstract vs Inteface
 
