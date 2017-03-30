@@ -40,6 +40,20 @@ http://stackoverflow.com/a/6110767
 
 ## fibonacci algorithm - recursion and iteration
 
+## Identical Balls Problem
+
+Question: You are given 8 identical looking balls. One of them is heavier than the rest of the 7 (all the others weigh exactly the same). You a provided with a simple mechanical balance and you are restricted to only 2 uses. Find the heavier ball.
+
+Answer: For convenience sake, let’s name the balls 1-8. First we weigh {1,2,3} on the left and {4,5,6} on the right. There are three scenarios which can arise from this.
+
+If the left side is heavier, then we know that one of 1, 2 or 3 is the heavier ball. Weigh {1} on the left and {2} on the right. By doing this, we will know if 1 or 2 is heavier. If they balance out, then 3 is the heavier one.
+
+If the right side is heavier, then we know that either 4, 5 or 6 is the heavier ball. Weigh {4} on the left and {5} on the right. By doing this we will know if 4 or 5 is heavier. If they balance out, then 6 is the heavier one.
+
+If {1,2,3} and {4,5,6} balance out, then we know either 7 or 8 is the heavier one. Weigh both of them to find out which one is heavier.
+
+http://www.mytechinterviews.com/8-identical-balls-problem
+
 # REST
 
 idempotent PUT and POST
