@@ -88,24 +88,37 @@ https://tiles.apache.org/framework/
 
 ### Context Configuration Annotations
 @Autowired - Declares a constructor, field, setter method, or configuration method to be autowired by type. Items annotated with @Autowired do not have to be public.
+
 @Configurable - Used with <context:springconfigured> to declare types whose properties should be injected, even if they are not instantiated by Spring. Typically used to inject the properties of domain objects.
+
 @Order - Defines ordering, as an alternative to implementing the org. springframework.core.Ordered interface.
+
 @Qualifier - Guides autowiring to be performed by means other than by type.
+
 @Required - Specifies that a particular property must be injected or else the configuration will fail.
+
 @Scope - Specifies the scope of a bean, either singleton, prototype, request, session, or some custom scope.
 
 ### Stereotyping Annotations
 @Component - Generic stereotype annotation for any Spring-managed component.
+
 @Controller - Stereotypes a component as a Spring MVC controller.
+
 @Repository - Stereotypes a component as a repository. Also indicates that SQLExceptions thrown from the component's methods should be translated into Spring DataAccessExceptions.
+
 @Service - Stereotypes a component as a service.
 
 ### Spring MVC Annotations
 @Controller - Stereotypes a component as a Spring MVC controller.
+
 @InitBinder - Annotates a method that customizes data binding.
+
 @ModelAttribute - When applied to a method, used to preload the model with the value returned from the method. When applied to a parameter, binds a model attribute to the parameter. table
+
 @RequestMapping - Maps a URL pattern and/or HTTP method to a method or controller type.
+
 @RequestParam - Binds a request parameter to a method parameter.
+
 @SessionAttributes - Specifies that a model attribute should be stored in the session.
 
 ### Transaction Annotations
@@ -113,26 +126,39 @@ https://tiles.apache.org/framework/
 
 ### Aspect Annotations
 @Aspect - Declares a class to be an aspect.
+
 @After - Declares a method to be called after a pointcut completes.
+
 @AfterReturning - Declares a method to be called after a pointcut returns successfully.
+
 @AfterThrowing - Declares a method to be called after a pointcut throws an exception.
+
 @Around - Declares a method that will wrap the pointcut.
+
 @Before - Declares a method to be called before proceeding to the pointcut.
+
 @DeclareParents - Declares that matching types should be given new parents,that is, it introduces new functionality into matching types.
+
 @Pointcut - Declares an empty method as a pointcut placeholder method.
 
 ### JSR-250 Annotations
 @PostConstruct - Indicates a method to be invoked after a bean has been created and dependency injection is complete. Used to perform any initialization work necessary.
+
 @PreDestroy - Indicates a method to be invoked just before a bean is removed from the Spring context. Used to perform any cleanup work necessary.
+
 @Resource - Indicates that a method or field should be injected with a named resource (by default, another bean).
 
 https://dzone.com/refcardz/spring-annotations
 
 ## JUnit Annotations
 @BeforeClass – Run once before any of the test methods in the class, public static void
+
 @AfterClass – Run once after all the tests in the class have been run, public static void
+
 @Before – Run before @Test, public void
+
 @After – Run after @Test, public void
+
 @Test – This is the test method to run, public void
 
 # Groovy
