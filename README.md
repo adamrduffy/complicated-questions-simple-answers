@@ -225,6 +225,7 @@ Transient modifier tells the Java object serialization to exclude the field when
 
 ## When would you use the volatile keyword?
 (NOTE: this is a very rarely used keyword, it is unlikely you will get a correct answer, useful to see if a candidate will cheat by looking it up or be honest and say "I don't know")
+
 Indicates that the variable will be modified by different threads.
 Does not hold a lock, so it is possible to "miss an update".
 
