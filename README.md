@@ -56,7 +56,12 @@ http://www.mytechinterviews.com/8-identical-balls-problem
 
 # REST
 
-idempotent PUT and POST
+## PUT vs POST
+Better is to choose between PUT and POST based on idempotence of the action.
+
+PUT implies putting a resource - completely replacing whatever is available at the given URL with a different thing. By definition, a PUT is idempotent. Do it as many times as you like, and the result is the same. x=5 is idempotent. You can PUT a resource whether it previously exists, or not (eg, to Create, or to Update)!
+
+POST updates a resource, adds a subsidiary resource, or causes a change. A POST is not idempotent, in the way that x++ is not idempotent.
 
 # Java
 
