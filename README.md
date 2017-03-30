@@ -76,6 +76,10 @@ If you use enums instead of integers (or String codes), you increase compile-tim
 
 http://stackoverflow.com/a/4709224
 
+### What is static block
+
+*TODO*
+
 ## Tiles
 
 Tiles allows authors to define page fragments which can be assembled into a complete page at runtime. These fragments, or tiles, can be used as simple includes in order to reduce the duplication of common page elements or embedded within other tiles to develop a series of reusable templates. These templates streamline the development of a consistent look and feel across an entire application.
