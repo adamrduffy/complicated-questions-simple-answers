@@ -25,7 +25,19 @@ One of HashMap's subclasses is LinkedHashMap, so in the event that you'd want pr
 
 http://stackoverflow.com/a/40878
 
-list vs set
+## What is the difference between the Set and List interfaces?
+
+List is an ordered sequence of elements whereas Set is a distinct list of elements which is unordered.
+
+List
+
+An ordered collection (also known as a sequence). The user of this interface has precise control over where in the list each element is inserted. The user can access elements by their integer index (position in the list), and search for elements in the list.
+
+Set
+
+A collection that contains no duplicate elements. More formally, sets contain no pair of elements e1 and e2 such that e1.equals(e2), and at most one null element. As implied by its name, this interface models the mathematical set abstraction.
+
+http://stackoverflow.com/a/1035012
 
 comparator and comparable
 
