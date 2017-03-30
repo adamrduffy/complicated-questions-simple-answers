@@ -195,9 +195,13 @@ If you use enums instead of integers (or String codes), you increase compile-tim
 
 http://stackoverflow.com/a/4709224
 
-### What is static block
+## What is static block
 
-*TODO*
+It's a static initializer. It's executed when the class is loaded (or initialized, to be precise, but you usually don't notice the difference).
+
+It can be thought of as a "class constructor".
+
+http://stackoverflow.com/a/2943575
 
 ## Tiles
 
