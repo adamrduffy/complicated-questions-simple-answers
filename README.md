@@ -63,6 +63,8 @@ PUT implies putting a resource - completely replacing whatever is available at t
 
 POST updates a resource, adds a subsidiary resource, or causes a change. A POST is not idempotent, in the way that x++ is not idempotent.
 
+http://stackoverflow.com/a/2691891
+
 # Java
 
 ## Inheritance vs Composition
