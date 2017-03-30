@@ -63,13 +63,49 @@ If you need to use lazy initialization for performance on an instance field, use
 
 http://stackoverflow.com/a/3580658
 
-tile definitions
+## How to declare a constant in Java?
 
-spring annotations
+You can use an enum type in Java 5 and onwards.
+
+Use the final modifier on a field in a class or declare a field in an interface.
+
+### What are enums and why are they useful?
+You should always use enums when a variable (especially a method parameter) can only take one out of a small set of possible values. Examples would be things like type constants (contract status: "permanent", "temp", "apprentice"), or flags ("execute now", "defer execution").
+
+If you use enums instead of integers (or String codes), you increase compile-time checking and avoid errors from passing in invalid constants, and you document which values are legal to use.
+
+http://stackoverflow.com/a/4709224
+
+## Tiles
+
+Tiles allows authors to define page fragments which can be assembled into a complete page at runtime. These fragments, or tiles, can be used as simple includes in order to reduce the duplication of common page elements or embedded within other tiles to develop a series of reusable templates. These templates streamline the development of a consistent look and feel across an entire application.
+
+Declared in tile definition file where each definition may have one or more attributes.
+
+https://tiles.apache.org/framework/
+
+## Spring
+
+### Context Configuration Annotations
+@Autowired - Declares a constructor, field, setter method, or configuration method to be autowired by type. Items annotated with @Autowired do not have to be public.
+@Configurable - Used with <context:springconfigured> to declare types whose properties should be injected, even if they are not instantiated by Spring. Typically used to inject the properties of domain objects.
+@Order - Defines ordering, as an alternative to implementing the org. springframework.core.Ordered interface.
+@Qualifier - Guides autowiring to be performed by means other than by type.
+@Required - Specifies that a particular property must be injected or else the configuration will fail.
+@Scope - Specifies the scope of a bean, either singleton, prototype, request, session, or some custom scope.
+
+### Stereotyping Annotations
+@Component - Generic stereotype annotation for any Spring-managed component.
+@Controller - Stereotypes a component as a Spring MVC controller.
+@Repository - Stereotypes a component as a repository. Also indicates that SQLExceptions thrown from the component's methods should be translated into Spring DataAccessExceptions.
+@Service - Stereotypes a component as a service.
+
+### Spring MVC Annotations
+@Controller - 
+
+https://dzone.com/refcardz/spring-annotations
 
 junit annotations
-
-constants and static final
 
 # Groovy
 
