@@ -262,7 +262,7 @@ TreeMap uses red-black tree, i.e. a self-balancing binary search tree.
 For bonus points ask if they know the Big O for each:
 HashMap is O(1) for get, TreeMap is O(log n) for get.
 
-## What are the keys differences between Comparable and Comparator.
+## What are the keys differences between Comparable and Comparator?
 
 When your class implements Comparable, the compareTo method of the class is defining the "natural" ordering of that object. That method is contractually obligated (though not demanded) to be in line with other methods on that object, such as a 0 should always be returned for objects when the .equals() comparisons return true.
 
