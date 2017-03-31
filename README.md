@@ -3,8 +3,20 @@
     1. [How to detect a loop in a linked list?](#how-to-detect-a-loop-in-a-linked-list)
     2. [Fibonacci Algorithm](#fibonacci-algorithm)
     3. [Identical Balls Problem](#identical-balls-problem)
-2. [Java](#java)
-3. [Groovy](#groovy)
+2. [REST](#rest)    
+    1. [PUT vs POST](#put-vs-post)
+3. [Java](#java)
+    1. [Inheritance vs Composition](#inheritance-vs-composition)
+    2. [Method Overloading vs Method Overriding](#method-overloading-vs-method-overriding)
+    3. [Abstract vs Inteface](#abstract-vs-inteface)
+    4. [Covariant Return Type](#covariant-return-type)
+    5. [Runtime Polymorphism](#runtime-polymorphism)
+    6. [What are the differences between a HashMap and a Hashtable in Java?](#what-are-the-differences-between-a-hashmap-and-a-hashtable-in-java)
+    7. [What is the difference between the Set and List interfaces?](#what-is-the-difference-between-the-set-and-list-interfaces)
+    8. [What are the similarities and difference between ArrayList and LinkedList?](#what-are-the-similarities-and-difference-between-arraylist-and-linkedlist?)
+    9. [What are the similarities and difference between HashMap and TreeMap?](#what-are-the-similarities-and-difference-between-hashmap-and-treemap?)
+    10. [What are the keys differences between Comparable and Comparator?](#what-are-the-keys-differences-between-comparable-and-comparator)
+4. [Groovy](#groovy)
 
 # Brain Teasers
 
