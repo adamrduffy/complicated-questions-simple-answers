@@ -167,6 +167,23 @@ A collection that contains no duplicate elements. More formally, sets contain no
 
 http://stackoverflow.com/a/1035012
 
+## What are the similarities and difference between ArrayList and LinkedList?
+Both implement the Java List interface.
+ArrayList is implemented using resizable arrays. LinkedList is implemented using a doubly linked list.
+
+For bonus points ask if they know the Big O for each:
+ArrayList is O(1) for get, typically O(1) for addition but could be O(n) if the array has to be resized, O(n) for deletion.
+LinkedList is O(n) for get, O(1) for addition and O(n) for deletion.
+
+## What are the similarities and difference between HashMap and TreeMap?
+Both implement the Java Map interface. Both do not support duplicate keys.
+TreeMap is used when the entries need to be sorted. HashMap when ordering is not important.
+HashMap uses hashCode method on the key to find the location of the value.
+TreeMap uses red-black tree, i.e. a self-balancing binary search tree.
+
+For bonus points ask if they know the Big O for each:
+HashMap is O(1) for get, TreeMap is O(log n) for get.
+
 ## What are the keys differences between Comparable and Comparator.
 
 When your class implements Comparable, the compareTo method of the class is defining the "natural" ordering of that object. That method is contractually obligated (though not demanded) to be in line with other methods on that object, such as a 0 should always be returned for objects when the .equals() comparisons return true.
@@ -211,23 +228,6 @@ It's a static initializer. It's executed when the class is loaded (or initialize
 It can be thought of as a "class constructor".
 
 http://stackoverflow.com/a/2943575
-
-## What are the similarities and difference between ArrayList and LinkedList?
-Both implement the Java List interface.
-ArrayList is implemented using resizable arrays. LinkedList is implemented using a doubly linked list.
-
-For bonus points ask if they know the Big O for each:
-ArrayList is O(1) for get, typically O(1) for addition but could be O(n) if the array has to be resized, O(n) for deletion.
-LinkedList is O(n) for get, O(1) for addition and O(n) for deletion.
-
-## What are the similarities and difference between HashMap and TreeMap?
-Both implement the Java Map interface. Both do not support duplicate keys.
-TreeMap is used when the entries need to be sorted. HashMap when ordering is not important.
-HashMap uses hashCode method on the key to find the location of the value.
-TreeMap uses red-black tree, i.e. a self-balancing binary search tree.
-
-For bonus points ask if they know the Big O for each:
-HashMap is O(1) for get, TreeMap is O(log n) for get.
 
 ## When would you use the transient keyword?
 Transient modifier tells the Java object serialization to exclude the field when serializing an instance of the class
