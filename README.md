@@ -1,3 +1,9 @@
+# Table of Contents
+1. [Brain Teasers](#brain-teasers)
+    1. [How to detect a loop in a linked list?](#how-to-detect-a-loop-in-a-linked-list)
+2. [Java](#java)
+3. [Groovy](#groovy)
+
 # Brain Teasers
 
 ## How to detect a loop in a linked list?
