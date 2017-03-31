@@ -177,6 +177,38 @@ In runtime polymorphism, compiler cannot determine the method at compile time. M
 
 http://stackoverflow.com/a/28964126
 
+## What is Encapsulation?
+
+It is the technique of making the fields in a class private and providing access to the fields via public methods. If a field is declared private, it cannot be accessed by anyone outside the class, thereby hiding the fields within the class. Therefore encapsulation is also referred to as data hiding.
+
+The main benefit of encapsulation is the ability to modify our implemented code without breaking the code of others who use our code. With this Encapsulation gives maintainability, flexibility and extensibility to our code.
+
+## What is the difference between StringBuffer and StringBuilder class?
+
+Use StringBuilder whenever possible because it is faster than StringBuffer. But, if thread safety is necessary then use StringBuffer objects.
+
+https://www.tutorialspoint.com/java/java_interview_questions.htm
+
+## What do you mean by Checked Exceptions?
+
+It is an exception that is typically a user error or a problem that cannot be foreseen by the programmer. For example, if a file is to be opened, but the file cannot be found, an exception occurs. These exceptions cannot simply be ignored at the time of compilation.
+
+## Explain Runtime Exceptions?
+
+It is an exception that occurs that probably could have been avoided by the programmer. As opposed to checked exceptions, runtime exceptions are ignored at the time of compliation.
+
+## What is the finally keyword?
+
+The finally keyword is used to create a block of code that follows a try block. A finally block of code always executes, whether or not an exception has occurred.
+
+## When is the finalize() method called in Java?
+
+The finalize method is called when an object is about to get garbage collected. That can be at any time after it has become eligible for garbage collection.
+
+Note that it's entirely possible that an object never gets garbage collected (and thus finalize is never called). This can happen when the object never becomes eligible for gc (because it's reachable through the entire lifetime of the JVM) or when no garbage collection actually runs between the time the object become eligible and the time the JVM stops running (this often occurs with simple test programs).
+
+http://stackoverflow.com/a/2506509
+
 ## What are the differences between a HashMap and a Hashtable in Java?
 
 There are several differences between HashMap and Hashtable in Java:
