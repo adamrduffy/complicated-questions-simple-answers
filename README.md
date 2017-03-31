@@ -125,7 +125,7 @@ http://stackoverflow.com/a/12374437
 
 A class that is declared as abstract is known as abstract class. It needs to be extended and its method implemented. It cannot be instantiated.
 
-Interface is a blueprint of a class that have static constants and abstract methods.It can be used to achieve fully abstraction and multiple inheritance.
+Interface is a blueprint of a class that have static constants and abstract methods. It can be used to achieve fully abstraction and multiple inheritance.
 
 ## Covariant Return Type
 
