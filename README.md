@@ -209,7 +209,17 @@ Note that it's entirely possible that an object never gets garbage collected (an
 
 http://stackoverflow.com/a/2506509
 
-## What are the differences between a HashMap and a Hashtable in Java?
+## What is the difference between the Runnable and Callable interface?
+
+A Runnable is basically a type of class (Runnable is an Interface) that can be put into a thread, describing what the thread is supposed to do.
+
+http://stackoverflow.com/a/13327597
+
+The Callable interface is similar to Runnable, in that both are designed for classes whose instances are potentially executed by another thread. A Runnable, however, does not return a result and cannot throw a checked exception.
+
+http://stackoverflow.com/a/141303
+
+## What are the differences between a HashMap and a Hashtable?
 
 There are several differences between HashMap and Hashtable in Java:
 
