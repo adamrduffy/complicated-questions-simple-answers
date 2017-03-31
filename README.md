@@ -249,14 +249,25 @@ It can be thought of as a "class constructor".
 
 http://stackoverflow.com/a/2943575
 
+## What does Serializable mean?
+
+Serialization is persisting an object from memory to a sequence of bits, for instance for saving onto the disk. Deserialization is the opposite - reading data from the disk to hydrate/create an object.
+
+http://stackoverflow.com/a/3429939
+
 ## When would you use the transient keyword?
 Transient modifier tells the Java object serialization to exclude the field when serializing an instance of the class
 
 ## When would you use the volatile keyword?
-(NOTE: this is a very rarely used keyword, it is unlikely you will get a correct answer, useful to see if a candidate will cheat by looking it up or be honest and say "I don't know")
+"...the volatile modifier guarantees that any thread that reads a field will see the most recently written value." - Josh Bloch
 
-Indicates that the variable will be modified by different threads.
-Does not hold a lock, so it is possible to "miss an update".
+When multiple threads using the same variable, each thread will have its own copy of the local cache for that variable.
+
+So, when it’s updating the value, it is actually updated in the local cache not in the main variable memory. The other thread which is using the same variable doesn’t know anything about the values changed by the another thread.
+
+To avoid this problem, if you declare a variable as volatile, then it will not be stored in the local cache. Whenever thread are updating the values, it is updated to the main memory. So, other threads can access the updated value.
+
+http://stackoverflow.com/a/9851178
 
 ## Tiles
 
