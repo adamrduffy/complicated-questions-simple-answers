@@ -16,6 +16,12 @@
     8. [What are the similarities and difference between ArrayList and LinkedList?](#what-are-the-similarities-and-difference-between-arraylist-and-linkedlist?)
     9. [What are the similarities and difference between HashMap and TreeMap?](#what-are-the-similarities-and-difference-between-hashmap-and-treemap?)
     10. [What are the keys differences between Comparable and Comparator?](#what-are-the-keys-differences-between-comparable-and-comparator)
+    11. [What does 'synchronized' mean?](#what-does-synchronized-mean)
+    12. [How to declare a constant in Java?](#how-to-declare-a-constant-in-java)
+    13. [What is static block?](#what-is-static-block)
+    14. [What does Serializable mean?](#what-does-serializable-mean)
+    15. [When would you use the transient keyword?](#when-would-you-use-the-transient-keyword)
+    16. [When would you use the volatile keyword?](#when-would-you-use-the-volatile-keyword)   
 4. [Groovy](#groovy)
 
 # Brain Teasers
