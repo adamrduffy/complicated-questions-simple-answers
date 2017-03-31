@@ -126,11 +126,17 @@ Interface is a blueprint of a class that have static constants and abstract meth
 
 ## Covariant Return Type
 
-*TODO*
+What this means is that a method in a subclass may return an object whose type is a subclass of the type returned by the method with the same signature in the superclass. This feature removes the need for excessive type checking and casting.
+
+http://stackoverflow.com/a/10134596
 
 ## Runtime Polymorphism
 
-*TODO*
+In static polymorphism, compiler itself determines which method should call. Method overloading is an example of static polymorphism.
+
+In runtime polymorphism, compiler cannot determine the method at compile time. Method overriding(as your example) is an example of runtime polymorphism. Because in Runtime polymorphism (as your example), the signature of methodA() is similar in both the class X(base class) and Y(child class). So compiler cannot determine method at compile time which should execute. Only after object creation(which is a run time process), the runtime environment understand the exact method to call.
+
+http://stackoverflow.com/a/28964126
 
 ## What are the differences between a HashMap and a Hashtable in Java?
 
