@@ -110,8 +110,11 @@ http://stackoverflow.com/a/2399554
 
 Method overloading deals with the notion of having two or more methods in the same class with the same name but different arguments.
 
+```java
 void foo(int a)
 void foo(int a, float b)
+```
+
 Method overriding means having two methods with the same arguments, but different implementations. One of them would exist in the parent class, while another will be in the derived, or child class. 
 
 You can't override the static method because they are the part of class not object. You can override the overloaded method.
