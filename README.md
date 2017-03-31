@@ -22,7 +22,17 @@
     14. [What does Serializable mean?](#what-does-serializable-mean)
     15. [When would you use the transient keyword?](#when-would-you-use-the-transient-keyword)
     16. [When would you use the volatile keyword?](#when-would-you-use-the-volatile-keyword)   
+    17. [Tiles](#tiles)
+    18. [Spring](#spring)
+    19. [Context Configuration Annotations](#context-configuration-annotations)
+    20. [Stereotyping Annotations](#stereotyping-annotations)
+    21. [Spring MVC Annotations](#spring-mvc-annotations)
+    22. [Transaction Annotations](#transaction-annotations)
+    23. [Aspect Annotations](#aspect-annotations)
+    24. [JSR-250 Annotations](#jsr-250-annotations)
+    25. [JUnit Annotations](#junit-annotations)
 4. [Groovy](#groovy)
+    1. [Safe navigation operator](#safe-navigation-operator)
 
 # Brain Teasers
 
