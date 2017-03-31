@@ -24,13 +24,13 @@
     16. [When would you use the volatile keyword?](#when-would-you-use-the-volatile-keyword)   
     17. [Tiles](#tiles)
     18. [Spring](#spring)
-    19. [Context Configuration Annotations](#context-configuration-annotations)
-    20. [Stereotyping Annotations](#stereotyping-annotations)
-    21. [Spring MVC Annotations](#spring-mvc-annotations)
-    22. [Transaction Annotations](#transaction-annotations)
-    23. [Aspect Annotations](#aspect-annotations)
-    24. [JSR-250 Annotations](#jsr-250-annotations)
-    25. [JUnit Annotations](#junit-annotations)
+        1. [Context Configuration Annotations](#context-configuration-annotations)
+        2. [Stereotyping Annotations](#stereotyping-annotations)
+        3. [Spring MVC Annotations](#spring-mvc-annotations)
+        4. [Transaction Annotations](#transaction-annotations)
+        5. [Aspect Annotations](#aspect-annotations)
+        6. [JSR-250 Annotations](#jsr-250-annotations)
+    19. [JUnit Annotations](#junit-annotations)
 4. [Groovy](#groovy)
     1. [Safe navigation operator](#safe-navigation-operator)
 
@@ -285,7 +285,7 @@ To avoid this problem, if you declare a variable as volatile, then it will not b
 
 http://stackoverflow.com/a/9851178
 
-## Tiles
+# Tiles
 
 Tiles allows authors to define page fragments which can be assembled into a complete page at runtime. These fragments, or tiles, can be used as simple includes in order to reduce the duplication of common page elements or embedded within other tiles to develop a series of reusable templates. These templates streamline the development of a consistent look and feel across an entire application.
 
