@@ -327,6 +327,15 @@ To avoid this problem, if you declare a variable as volatile, then it will not b
 
 http://stackoverflow.com/a/9851178
 
+## New features in 
+### Java 7
+
+http://stackoverflow.com/a/6640059
+
+### Java 8
+
+http://www.journaldev.com/2389/java-8-features-with-examples
+
 # Tiles
 
 Tiles allows authors to define page fragments which can be assembled into a complete page at runtime. These fragments, or tiles, can be used as simple includes in order to reduce the duplication of common page elements or embedded within other tiles to develop a series of reusable templates. These templates streamline the development of a consistent look and feel across an entire application.
