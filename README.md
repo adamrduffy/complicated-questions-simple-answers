@@ -33,6 +33,7 @@
     19. [JUnit Annotations](#junit-annotations)
 4. [Groovy](#groovy)
     1. [Safe navigation operator](#safe-navigation-operator)
+    2. [Delegate, Mixin and Traits](#delegate-mixin-and-traits)
 
 # Brain Teasers
 
@@ -431,3 +432,7 @@ animal?.name
 https://tedvinke.wordpress.com/2015/09/25/avoid-nullpointerexception-safe-navigation-with-groovy/
 
 http://www.groovy-lang.org/operators.html#_safe_navigation_operator
+
+## Delegate, Mixin and Traits
+
+http://stackoverflow.com/a/23124968
